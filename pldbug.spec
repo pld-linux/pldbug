@@ -1,12 +1,12 @@
 Summary:	Makes PLD's bug report sending easier
 Summary(pl):	£atwe wysy³anie raportów o b³êdach w PLD
 Name:		pldbug
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Applications/Terminal
-Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
-# Source0-md5:	cf7e7edf500714e2054f8cd1cfe0e1a9
+Source0:	ftp://distfiles.pld-linux.org/src/%{name}-%{version}.tar.gz
+# Source0-md5:	b7e7f4828b09375a14ea2ce3ed953599
 Requires:	dml
 Requires:	mailx
 BuildArch:	noarch
