@@ -1,9 +1,8 @@
-%define _short_name 	mwcls
 Summary:	Makes PLD's bug report sending easier
 Summary(pl):	£atwe wysy³±nie raportów o b³edach w PLD
 Name:		pldbug
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
@@ -19,13 +18,14 @@ Umo¿liwia ³atwe wysy³anie raportów o b³edach w PLD. Posiada zgrabny
 interfejs u¿ytkownika.
 
 %prep
-%setup -q -c
+%setup 
 
 %build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D pldbug/pldbug.sh $RPM_BUILD_ROOT%{_bindir}/pldbug
+install -d $RPM_BUILD_ROOT%{_bindir}
+install pldbug.sh $RPM_BUILD_ROOT%{_bindir}/pldbug
 
 %clean
 rm -rf $RPM_BUILD_ROOT
