@@ -2,7 +2,7 @@ Summary:	Makes PLD's bug report sending easier
 Summary(pl):	£atwe wysy³anie raportów o b³êdach w PLD
 Name:		pldbug
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Terminal
 Source0:	ftp://distfiles.pld-linux.org/src/%{name}-%{version}.tar.gz
