@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Terminal
 Source0:	ftp://distfiles.pld-linux.org/src/%{name}-%{version}.tar.gz
-# Source0-md5:	b7e7f4828b09375a14ea2ce3ed953599
+# Source0-md5:	e3d23b9e0628aca7c0bf73f66b3f9752
 Requires:	dml
 Requires:	mailx
 BuildArch:	noarch
