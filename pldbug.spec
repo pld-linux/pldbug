@@ -1,8 +1,8 @@
 Summary:	Makes PLD's bug report sending easier
-Summary(pl):	£atwe wysy³±nie raportów o b³edach w PLD
+Summary(pl):	£atwe wysy³anie raportów o b³êdach w PLD
 Name:		pldbug
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
@@ -10,21 +10,20 @@ Requires:	dml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Script that allow you to send bug report to PLD in easy way. It has
+Script that allows you to send bug report to PLD in easy way. It has
 got nice, text mode, user interface.
 
 %description -l pl
-Umo¿liwia ³atwe wysy³anie raportów o b³edach w PLD. Posiada zgrabny
-interfejs u¿ytkownika.
+Ten skrypt umo¿liwia ³atwe wysy³anie raportów o b³êdach w PLD. Posiada
+zgrabny interfejs u¿ytkownika.
 
 %prep
 %setup 
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install pldbug.sh $RPM_BUILD_ROOT%{_bindir}/pldbug
 
 %clean
