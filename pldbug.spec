@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Terminal
 Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
+# Source0-md5:	cf7e7edf500714e2054f8cd1cfe0e1a9
 Requires:	dml
 Requires:	mailx
 BuildArch:	noarch
