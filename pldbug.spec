@@ -17,7 +17,7 @@ text mode, user interface.
 
 %description -l pl
 Umo¿liwia ³atwe wysy³anie raportów o b³edach w PLD. Posiada zgrabny interfejs
-urzytkownika.
+u¿ytkownika.
 
 %prep
 %setup  -c
