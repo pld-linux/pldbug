@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Console
 Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
 Requires:	dml
+Requires:	mailx
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
