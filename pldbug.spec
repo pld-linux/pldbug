@@ -21,7 +21,7 @@ Ten skrypt umo¿liwia ³atwe wysy³anie raportów o b³êdach w PLD. Posiada
 zgrabny interfejs u¿ytkownika.
 
 %prep
-%setup 
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
