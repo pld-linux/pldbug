@@ -4,7 +4,7 @@ Name:		pldbug
 Version:	1.3
 Release:	1
 License:	GPL
-Group:		Applications/Console
+Group:		Applications/Terminal
 Source0:	ftp://sokrates.mimuw.edu.pl/pub/users/pawelk/%{name}-%{version}.tgz
 Requires:	dml
 Requires:	mailx
