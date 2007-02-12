@@ -1,5 +1,5 @@
 Summary:	Makes PLD's bug report sending easier
-Summary(pl):	£atwe wysy³anie raportów o b³êdach w PLD
+Summary(pl.UTF-8):   Åatwe wysyÅ‚anie raportÃ³w o bÅ‚Ä™dach w PLD
 Name:		pldbug
 Version:	1.4
 Release:	3
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Script that allows you to send bug report to PLD in easy way. It has
 got nice, text mode, user interface.
 
-%description -l pl
-Ten skrypt umo¿liwia ³atwe wysy³anie raportów o b³êdach w PLD. Posiada
-zgrabny interfejs u¿ytkownika.
+%description -l pl.UTF-8
+Ten skrypt umoÅ¼liwia Å‚atwe wysyÅ‚anie raportÃ³w o bÅ‚Ä™dach w PLD. Posiada
+zgrabny interfejs uÅ¼ytkownika.
 
 %prep
 %setup -q
