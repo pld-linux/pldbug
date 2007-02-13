@@ -1,5 +1,5 @@
 Summary:	Makes PLD's bug report sending easier
-Summary(pl.UTF-8):   Łatwe wysyłanie raportów o błędach w PLD
+Summary(pl.UTF-8):	Łatwe wysyłanie raportów o błędach w PLD
 Name:		pldbug
 Version:	1.4
 Release:	3
